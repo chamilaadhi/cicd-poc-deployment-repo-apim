@@ -1,0 +1,10 @@
+environments:
+    - name: dev
+      configs:
+        endpoints:
+            production:
+                url: 'http://run.mocky.io/v3/88f55ec6-3256-4443-991e-a53d33b04b02'
+        deploymentEnvironments:
+            - displayOnDevportal: true
+              deploymentEnvironment: Default
+              deploymentVhost : localhost
